@@ -1,0 +1,6 @@
+
+function load(functionName){
+  if (typeof window[functionName] != 'undefined'){
+   window[functionName](arg1 , arg2 , ...);
+  }
+}
